@@ -1,0 +1,38 @@
+body {
+    font-family: "Lucida Console", monospace;
+    background: #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+img.avatar {
+    width: 100%;
+    max-width: 275px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+a {
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+a:hover {
+    color: #ffffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
