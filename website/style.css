@@ -3,14 +3,14 @@ body {
     background: #a0a0a0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     margin: 0;
 }
 
 .text {
     text-align: center;
-    transform: translateY(-250px);
+    margin-top: 50px;
 }
 
 .text p {
